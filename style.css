@@ -1,0 +1,1305 @@
+* {
+  outline: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+img,
+fieldset {
+  border: 0;
+}
+input,
+label,
+select {
+  font-family: inherit;
+  border: none;
+  vertical-align: middle;
+}
+textarea {
+  font-family: inherit;
+  vertical-align: top;
+}
+@font-face {
+  font-family: Arnopro;
+  src: url(http://www.theworldmag.com/content/font/arnopro.ttf);
+}
+@font-face {
+  font-family: Futura;
+  src: url(http://www.theworldmag.com/content/fonts/futura.ttf);
+}
+@font-face {
+  font-family: Merriweather;
+  src: url(http://www.theworldmag.com/content/fonts/merriweather.ttf);
+}
+.promoList .promoName,
+.promoList .promoAuthor,
+.lastIssue .issueAuthorLabel,
+.lastIssue .issueArticleName,
+.lastIssue .issueArticleAuthor,
+.articlesList .articlesName,
+.articlesList .articlesAuthor,
+.gridSquareList .gridSquareLabel,
+.credo .credoLabel,
+.credo:nth-child(2n) .credoLabel,
+.public .publicHeadName,
+.public .publicHeadAuthor,
+.public .publicPrevName,
+.public .publicPrevLabel {
+  color: #fff;
+  display: inline-block;
+  font: normal 18px/35px Futura;
+  height: 35px;
+  padding: 0 18px;
+}
+.promoList .promoAuthor,
+.lastIssue .issueAuthorLabel,
+.lastIssue .issueArticleAuthor,
+.articlesList .articlesName,
+.gridSquareList .gridSquareLabel,
+.credo .credoLabel,
+.credo:nth-child(2n) .credoLabel,
+.public .publicHeadAuthor,
+.public .publicPrevLabel {
+  background: #141617;
+}
+.promoList .promoName,
+.lastIssue .issueArticleName,
+.articlesList .articlesAuthor,
+.public .publicHeadName,
+.public .publicPrevName {
+  background: #de2b43;
+}
+.pagingLine .pagingLinePrev:after,
+.pagingLine .pagingLineNext:after {
+  border-top: 2.5px solid #000;
+  border-right: 2.5px solid #000;
+  display: inline-block;
+  height: 9px;
+  width: 9px;
+}
+.pagingLine .pagingLinePrev:after {
+  transform: rotate(-135deg);
+}
+.pagingLine .pagingLineNext:after {
+  transform: rotate(45deg);
+}
+.promoListWrap {
+  position: relative;
+}
+.promoListWrap:before {
+  background: #f6f6f6;
+  height: 760px;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  z-index: -5;
+  content: "";
+}
+.promoList {
+  margin: 0 auto;
+  height: 820px;
+  padding: 0;
+  position: relative;
+  width: 1400px;
+}
+.promoList .promoImg {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.promoList .promoName {
+  position: absolute;
+}
+.promoList .promoAuthor {
+  position: absolute;
+}
+.promoList .promoHeader,
+.promoList .promoContent {
+  display: block;
+  overflow: hidden;
+}
+.promoList .promoItem {
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+.promoList .promoItem:nth-child(1) {
+  top: 0;
+  left: 0;
+  height: 820px;
+  width: 700px;
+}
+.promoList .promoItem:nth-child(1) .promoImg {
+  height: 820px;
+  width: 700px;
+}
+.promoList .promoItem:nth-child(1) .promoName {
+  left: 50px;
+  top: 380px;
+}
+.promoList .promoItem:nth-child(1) .promoAuthor {
+  left: 50px;
+  top: 415px;
+}
+.promoList .promoItem:nth-child(1) .promoHeader {
+  font: normal bold 60px/68px Arnopro;
+  max-height: 120px;
+  padding: 485px 0 0 50px;
+}
+.promoList .promoItem:nth-child(1) .promoContent {
+  font: normal 18px/26px Futura;
+  /*max-height: 110px;*/
+  padding: 40px 100px 0 50px;
+}
+.promoList .promoItem:nth-child(2) {
+  height: 420px;
+  right: 0;
+  top: 0;
+  width: 700px;
+}
+.promoList .promoItem:nth-child(2) .promoImg {
+  height: 420px;
+  width: 700px;
+}
+.promoList .promoItem:nth-child(2) .promoName {
+  left: 40px;
+  top: 180px;
+}
+.promoList .promoItem:nth-child(2) .promoAuthor {
+  left: 40px;
+  top: 215px;
+}
+.promoList .promoItem:nth-child(2) .promoHeader {
+  font: normal bold 38px/46px Arnopro;
+  max-height: 80px;
+  padding: 280px 40px 0 40px;
+}
+.promoList .promoItem:nth-child(3) {
+  bottom: 0;
+  height: 400px;
+  left: 700px;
+  width: 170px;
+}
+.promoList .promoItem:nth-child(3) .promoImg {
+  height: 400px;
+  width: 170px;
+}
+.promoList .promoItem:nth-child(3) .promoHeader {
+  bottom: 35px;
+  font: normal 18px/22px Futura;
+  padding: 0 17px;
+  position: absolute;
+  text-transform: uppercase;
+}
+.promoList .promoItem:nth-child(4) {
+  top: 420px;
+  height: 210px;
+  right: 0;
+  width: 530px;
+}
+.promoList .promoItem:nth-child(4) .promoImg {
+  height: 210px;
+  width: 530px;
+}
+.promoList .promoItem:nth-child(4) .promoHeader {
+  font: normal bold 38px/44px Arnopro;
+  padding: 28px 35px  0;
+  max-height: 60px;
+}
+.promoList .promoItem:nth-child(4) .promoContent {
+  font: normal 16px/22px Futura;
+  padding: 12px 120px 0 35px;
+  max-height: 90px;
+}
+.promoList .promoItem:nth-child(5) {
+  bottom: 0;
+  height: 190px;
+  right: 0;
+  width: 530px;
+}
+.promoList .promoItem:nth-child(5) .promoImg {
+  height: 190px;
+  width: 530px;
+}
+.promoList .promoLink {
+  color: #fff;
+  text-decoration: none;
+}
+.promoList .promoItemListDate {
+  background: rgba(0, 0, 0, 0.2);
+  list-style: none;
+  margin: 0;
+  height: 100%;
+  right: 0;
+  padding: 12px 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100px;
+}
+.promoList .promoItemListDate li {
+  margin: 0 0 7px;
+  padding: 0;
+}
+.promoList .promoItemListDate li:last-child {
+  margin: 0;
+}
+.promoList .promoListDateNumber {
+  display: block;
+  font: normal bold 18px/22px Arnopro;
+}
+.promoList .promoListDateUnit {
+  display: block;
+  font: normal 10px/20px Arial;
+}
+.promoList .promoSlider {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.promoList .promoSliderItem {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+}
+.promoList .promoSliderItem.active {
+  z-index: 1;
+}
+.promoList .promoSliderPaging {
+  bottom: 30px;
+  margin: 0;
+  list-style: none;
+  left: 45px;
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+}
+.promoList .promoSliderPagingItem {
+  background: #fff;
+  font-size: 0;
+  border-radius: 100%;
+  cursor: pointer;
+  color: transparent;
+  display: inline-block;
+  height: 6px;
+  margin: 0 12px 0 0;
+  overflow: hidden;
+  padding: 0;
+  width: 6px;
+}
+.promoList .promoSliderPagingItem.active {
+  height: 12px;
+  margin-bottom: -3px;
+  width: 12px;
+}
+.bannerHorizontal {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  display: block;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  text-decoration: none;
+}
+.lastIssue {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+}
+.lastIssue > li {
+  list-style: none;
+}
+.lastIssue:after {
+  background: #de2b43;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.lastIssue .issueAuthor {
+  color: #000;
+  overflow: hidden;
+  padding: 0 0 12px 50px;
+  position: relative;
+  text-decoration: none;
+}
+.lastIssue .issueAuthorIco {
+  border-radius: 100%;
+  height: 300px;
+  float: right;
+  margin: 12px 83px 12px 0;
+  width: 300px;
+}
+.lastIssue .issueAuthorLabel {
+  left: 50px;
+  position: absolute;
+  top: 55px;
+}
+.lastIssue .issueAuthorName {
+  font: normal bold 60px/68px Arnopro;
+  display: block;
+  padding: 120px 0 20px;
+}
+.lastIssue .issueAuthorAbout {
+  font: normal normal 18px/22px Futura;
+  margin: 0;
+  padding: 0 0 40px;
+  width: 50%;
+}
+.lastIssue .issueCoverIcoWrap {
+  background: #efefef;
+  float: left;
+  margin: 0 50px 0 0;
+  overflow: hidden;
+  padding: 80px 0 95px;
+  position: relative;
+  text-align: center;
+  width: 700px;
+}
+.lastIssue .issueCoverIcoWrap:before {
+  background: #bdbdbd;
+  content: "";
+  height: 657px;
+  left: -8px;
+  position: absolute;
+  top: 138px;
+  transform: matrix(1, -1, 0, 1, 0, 0);
+  width: 115px;
+  z-index: 0;
+}
+.lastIssue .issueCoverIcoWrap:after {
+  background: #bdbdbd;
+  content: "";
+  height: 95px;
+  left: -46px;
+  position: absolute;
+  top: 737px;
+  transform: matrix(1, 0, -1, 1, 0, 0);
+  width: 592px;
+  z-index: 0;
+}
+.lastIssue .issueCoverIco {
+  display: block;
+  height: 657px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  width: 486px;
+}
+.lastIssue .issueCoverDate {
+  color: #de2b43;
+  display: block;
+  font: normal 102px/102px Futura;
+  max-height: 280px;
+  overflow: hidden;
+  padding: 180px 0 70px;
+}
+.lastIssue .issueCoverText {
+  font: normal 20px/26px Arnopro;
+  margin: 0 140px 0 0;
+}
+.lastIssue .issueCoverText p {
+  margin: 0;
+}
+.lastIssue .issueArticleList {
+  clear: both;
+  height: 1140px;
+  position: relative;
+  width: 1400px;
+}
+.lastIssue .issueArticleIco {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.lastIssue .issueArticleName {
+  position: absolute;
+  top: 350px;
+}
+.lastIssue .issueArticleAuthor {
+  position: absolute;
+  top: 385px;
+}
+.lastIssue .issueArticleHeader {
+  box-sizing: border-box;
+  bottom: 0;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.lastIssue .issueArticleItem {
+  overflow: hidden;
+  position: absolute;
+  text-decoration: none;
+}
+.lastIssue .issueArticleItem:nth-child(1) {
+  left: 0;
+  height: 570px;
+  top: 0;
+  width: 700px;
+}
+.lastIssue .issueArticleItem:nth-child(1) .issueArticleIco {
+  height: 570px;
+  width: 700px;
+}
+.lastIssue .issueArticleItem:nth-child(2) {
+  left: 700px;
+  height: 570px;
+  top: 0;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(2) .issueArticleIco {
+  height: 570px;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(3) {
+  right: 0;
+  height: 570px;
+  top: 0;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(3) .issueArticleIco {
+  height: 570px;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(4) {
+  bottom: 0;
+  height: 570px;
+  left: 0;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(4) .issueArticleIco {
+  height: 570px;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(5) {
+  bottom: 0;
+  height: 570px;
+  left: 350px;
+  width: 700px;
+}
+.lastIssue .issueArticleItem:nth-child(5) .issueArticleIco {
+  height: 570px;
+  width: 700px;
+}
+.lastIssue .issueArticleItem:nth-child(6) {
+  bottom: 0;
+  right: 0;
+  height: 570px;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(6) .issueArticleIco {
+  height: 570px;
+  width: 350px;
+}
+.lastIssue .issueArticleItem:nth-child(1) .issueArticleName,
+.lastIssue .issueArticleItem:nth-child(5) .issueArticleName,
+.lastIssue .issueArticleItem:nth-child(1) .issueArticleAuthor,
+.lastIssue .issueArticleItem:nth-child(5) .issueArticleAuthor {
+  left: 30px;
+}
+.lastIssue .issueArticleItem:nth-child(1) .issueArticleHeader,
+.lastIssue .issueArticleItem:nth-child(5) .issueArticleHeader {
+  color: #fff;
+  font: normal bold 36px/44px Arnopro;
+  padding: 12px 50px;
+}
+.lastIssue .issueArticleItem:nth-child(2) .issueArticleName,
+.lastIssue .issueArticleItem:nth-child(3) .issueArticleName,
+.lastIssue .issueArticleItem:nth-child(4) .issueArticleName,
+.lastIssue .issueArticleItem:nth-child(6) .issueArticleName,
+.lastIssue .issueArticleItem:nth-child(2) .issueArticleAuthor,
+.lastIssue .issueArticleItem:nth-child(3) .issueArticleAuthor,
+.lastIssue .issueArticleItem:nth-child(4) .issueArticleAuthor,
+.lastIssue .issueArticleItem:nth-child(6) .issueArticleAuthor {
+  left: 0;
+}
+.lastIssue .issueArticleItem:nth-child(2) .issueArticleHeader,
+.lastIssue .issueArticleItem:nth-child(3) .issueArticleHeader,
+.lastIssue .issueArticleItem:nth-child(4) .issueArticleHeader,
+.lastIssue .issueArticleItem:nth-child(6) .issueArticleHeader {
+  background: #fff;
+  color: #000;
+  font: normal bold 26px/32px Arnopro;
+  padding: 21px 18px;
+}
+.lastIssue .issueBtnAll {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: block;
+  font: normal 18px/100px Futura;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  width: 350px;
+  z-index: 2;
+}
+.lastIssueWrap {
+  position: relative;
+}
+.lastIssueWrap:nth-child(2n) .issueAuthorIco {
+  float: left;
+}
+.lastIssueWrap:nth-child(2n) .issueAuthorLabel {
+  left: 470px;
+}
+.lastIssueWrap:nth-child(2n) .issueAuthorName {
+  padding: 120px 0 20px 420px;
+}
+.lastIssueWrap:nth-child(2n) .issueAuthorAbout {
+  padding: 0 50px 40px 420px;
+}
+.articlesListHeader {
+  color: #000;
+  display: block;
+  font: normal bold 36px/170px Arnopro;
+  height: 170px;
+  text-align: center;
+}
+.articlesList {
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+  column-count: 3;
+  column-gap: 70px;
+  overflow: hidden;
+  padding: 0 105px 40px;
+  width: 1400px;
+}
+.articlesList .articlesIco {
+  height: 210px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 350px;
+}
+.articlesList .articlesItemHeader {
+  color: #fff;
+  display: block;
+  font: normal bold 28px/32px Arnopro;
+  height: 90px;
+  margin: 0 0 100px;
+  overflow: hidden;
+  padding: 60px 25px 0;
+}
+.articlesList .articlesName {
+  left: 0;
+  position: absolute;
+  top: 175px;
+}
+.articlesList .articlesAuthor {
+  left: 0;
+  position: absolute;
+  top: 210px;
+}
+.articlesList .articlesText {
+  color: #000;
+  font: normal 18px/22px Arnopro;
+  margin: 0;
+  padding: 10px 25px 0;
+}
+.articlesList .articlesItem {
+  display: inline-block;
+  margin: 0 0 45px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  width: 350px;
+}
+.articlesList .articlesItem:nth-child(3n) {
+  margin-right: 0;
+}
+.articlesList .articlesItem:nth-child(3) .articlesText,
+.articlesList .articlesItem:nth-child(4) .articlesText {
+  height: 60px;
+}
+.gridSquareList {
+  margin: 0 auto;
+  padding: 0 0 95px;
+  position: relative;
+  width: 1400px;
+}
+.gridSquareList:after {
+  clear: both;
+  display: block;
+  width: 100%;
+  content: "";
+}
+.gridSquareList .gridSquareIcoWrap {
+  overflow: hidden;
+}
+.gridSquareList .gridSquareLabel {
+  left: 50px;
+  position: absolute;
+  top: -30px;
+}
+.gridSquareList .gridSquareIco {
+  float: left;
+  height: 350px;
+  width: 350px;
+}
+.gridSquareList .gridSquareBtnMore {
+  background: #000;
+  color: #fff;
+  font: normal 24px/74px Arnopro;
+  letter-spacing: 1px;
+  left: 50%;
+  margin: -74px 0 0 -155px;
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  top: 50%;
+  width: 310px;
+}
+.galleriesList {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+}
+.galleriesList .galleriesIco {
+  float: left;
+  height: 350px;
+  width: 700px;
+}
+.galleriesList .galleriesHeader {
+  background: #f6f6f6;
+  color: #141617;
+  display: block;
+  font: normal bold 38px/38px Arnopro;
+  height: 75px;
+  left: 560px;
+  overflow: hidden;
+  padding: 23px 25px 20px;
+  position: absolute;
+  top: 115px;
+  width: 560px;
+}
+.galleriesList .galleriesDate {
+  color: #d0d0d1;
+  font: normal 16px/18px Futura;
+  position: absolute;
+  right: 240px;
+  top: 240px;
+}
+.galleriesList .galleriesItem {
+  clear: both;
+  display: block;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.galleriesList .galleriesItem:nth-child(2n) .galleriesIco {
+  float: right;
+}
+.galleriesList .galleriesItem:nth-child(2n) .galleriesHeader {
+  left: 245px;
+}
+.galleriesList .galleriesItem:nth-child(2n) .galleriesDate {
+  right: auto;
+  left: 245px;
+}
+.credo {
+  margin: 0 auto;
+  width: 1400px;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  overflow: hidden;
+  padding: 0 0 12px 0;
+  position: relative;
+  text-decoration: none;
+}
+.credo .credoIco {
+  float: right;
+  height: 420px;
+  width: 700px;
+}
+.credo .credoLabel {
+  left: 50px;
+  position: absolute;
+  top: 55px;
+}
+.credo .credoName {
+  font: normal bold 60px/68px Arnopro;
+  display: block;
+  padding: 120px 50px 20px;
+}
+.credo .credoAbout {
+  font: normal 18px/22px Futura;
+  margin: 0;
+  padding: 0 50px 40px;
+  width: 500px;
+}
+.credo .credoWrapContent {
+  clear: both;
+  padding: 10px 50px 0;
+}
+.credo .credoTextSmall {
+  font: normal 20px/30px Arnopro;
+  margin: 30px 0;
+}
+.credo .credoTextMedium {
+  font: normal 36px/38px Futura;
+  margin: 30px 0;
+}
+.credo:nth-child(2n) .credoIco {
+  float: left;
+}
+.credo:nth-child(2n) .credoLabel {
+  left: 750px;
+}
+.credo:nth-child(2n) .credoName {
+  padding: 120px 50px 20px 750px;
+}
+.public {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  margin-bottom: 100px;
+}
+.public h1 {
+  color: #fff;
+  padding-bottom: 30px;
+  padding-left: 0;
+}
+.public .publicHead {
+  box-sizing: border-box;
+  height: 422px;
+  overflow: hidden;
+  padding: 0 50px;
+  position: relative;
+  width: 100%;
+}
+.public .publicHeadIco {
+  height: 422px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1400px;
+  z-index: -1;
+}
+.public .publicHeadText {
+  color: #fff;
+  font: normal 18px/24px Futura;
+  max-height: 100px;
+  margin: 0 0 45px ;
+  overflow: hidden;
+  width: 540px;
+}
+.public .publicHeadName,
+.public .publicHeadAuthor {
+  bottom: 35px;
+  left: 50px;
+  position: absolute;
+}
+.public .publicHeadName {
+  bottom: 70px;
+}
+.public .publicContent {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 50px;
+}
+.public .publicContentLink {
+  color: #333;
+}
+.public .publicContentText {
+  color: #333;
+  font: normal 20px/30px Futra;
+  margin: 45px 0;
+}
+.public .publicContentIco {
+  display: block;
+  margin: 45px -50px;
+  width: 945px;
+}
+.public .publicContentPanel {
+  border: 1px solid #d0d0d1;
+  box-sizing: border-box;
+  display: block;
+  font: normal bold 24px/36px Merriweather;
+  padding: 40px 65px;
+  text-align: center;
+}
+.public .publicPrevList {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  vertical-align: top;
+}
+.public .publicPrevItem {
+  margin: 0 20px 0 50px;
+  position: relative;
+  text-decoration: none;
+  width: 350px;
+}
+.public .publicPrevItem:last-child {
+  margin-right: 0;
+}
+.public .publicPrevIco {
+  display: block;
+  height: 210px;
+  margin: 0 0 70px;
+  width: 100%;
+}
+.public .publicPrevHeader {
+  font: normal bold 28px/32px Arnopro;
+  color: #fff;
+  max-height: 90px;
+  left: 20px;
+  position: absolute;
+  top: 50px;
+}
+.public .publicPrevName,
+.public .publicPrevLabel {
+  left: 0;
+  position: absolute;
+  top: 175px;
+}
+.public .publicPrevLabel {
+  top: 210px;
+}
+.public .publicPrevText {
+  color: #333;
+  font: normal 18px/24px Futura;
+  margin: 30px 15px;
+  overflow: hidden;
+}
+.comments {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  box-sizing: border-box;
+  padding: 75px 0;
+}
+.paging {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  box-sizing: border-box;
+  padding: 40px 105px;
+}
+.paging .pagingItem {
+  color: #666;
+  display: inline-block;
+  font: normal 15px/30px Futura;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 30px;
+}
+.paging .pagingItem.active {
+  background: #000;
+  color: #fff;
+}
+.pagingLine {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  box-sizing: border-box;
+  padding: 50px 75px;
+}
+.pagingLine:after {
+  clear: both;
+  display: block;
+  width: 100%;
+  content: "";
+}
+.pagingLine a {
+  color: #141617;
+  font: normal 24px/28px Arnopro;
+  position: relative;
+  text-decoration: none;
+}
+.pagingLine a:after {
+  content: "";
+  position: absolute;
+  margin-top: -8px;
+  top: 50%;
+}
+.pagingLine .pagingLinePrev {
+  float: left;
+}
+.pagingLine .pagingLinePrev:after {
+  left: -35px;
+}
+.pagingLine .pagingLineNext {
+  float: right;
+}
+.pagingLine .pagingLineNext:after {
+  left: auto;
+  right: -35px;
+}
+body {
+  min-width: 1400px;
+}
+h1 {
+  font: normal bold 72px/82px Arnopro;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.soc-share {
+  margin: 10px 0;
+}
+.header {
+  margin: 0 auto;
+  width: 1400px;
+  height: 120px;
+  position: relative;
+}
+.headerLogo {
+  background: url(http://www.theworldmag.com/content/img/headerLogo.png) center no-repeat;
+  display: block;
+  height: 99px;
+  width: 341px;
+}
+.headerMenu {
+  position: absolute;
+  right: 240px;
+  top: 26px;
+  width: 420px;
+}
+.headerMenuLink {
+  color: #333;
+  float: left;
+  font: normal 19px/30px Arnopro;
+  padding: 5px 7px;
+  text-decoration: none;
+}
+.headerMenuLink:hover {
+  background: #141617;
+  color: #fff;
+}
+.headerAdditionalMenu {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  right: 0;
+  top: 40px;
+}
+.headerAdditionalItem {
+  display: table-cell;
+  font: normal 14px/18px Futura;
+  cursor: pointer;
+  height: 39px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  width: 46px;
+}
+.headerAdditionalItem a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.headerAdditionalItem.face {
+  background: url(http://www.theworldmag.com/content/img/headerAdditionalItem-face.png) center no-repeat;
+}
+.headerAdditionalItem.vk {
+  background: url(http://www.theworldmag.com/content/img/headerAdditionalItem-vk.png) center no-repeat;
+}
+.headerAdditionalItem.tw {
+  background: url(http://www.theworldmag.com/content/img/headerAdditionalItem-tw.png) center no-repeat;
+}
+.headerAdditionalItem.search {
+  background: url(http://www.theworldmag.com/content/img/headerAdditionalItem-search.png) center no-repeat;
+  border-right: 1px solid #d0d0d1;
+  border-left: 1px solid #d0d0d1;
+  display: none;
+}
+html {
+  height: 100%;
+  position: relative;
+}
+body {
+  min-height: 100%;
+  position: relative;
+}
+body:after {
+  content: '';
+  display: block;
+  height: 380px;
+}
+.footer {
+  background: #000;
+  bottom: 0;
+  min-width: 1400px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.footerWrap {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  background: url(http://www.theworldmag.com/content/img/footerLogo.png) left 75px no-repeat;
+  height: 380px;
+  color: #fff;
+}
+.footerWrap a {
+  color: #fff;
+}
+.footerCopy {
+  font: normal 16px/18px Futura;
+  left: 0;
+  position: absolute;
+  top: 215px;
+  width: 305px;
+}
+.footerSocialMenu {
+  left: 0;
+  position: absolute;
+  top: 280px;
+}
+.footerSocialLink {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+}
+.footerSocialLink.face {
+  background: url(http://www.theworldmag.com/content/img/footerSocialLink-face.png) left center no-repeat;
+}
+.footerSocialLink.vk {
+  background: url(http://www.theworldmag.com/content/img/footerSocialLink-vk.png) left center no-repeat;
+}
+.footerSocialLink.tw {
+  background: url(http://www.theworldmag.com/content/img/footerSocialLink-tw.png) left center no-repeat;
+}
+.footerMenu {
+  left: 350px;
+  position: absolute;
+  top: 75px;
+}
+.footerMenuLink {
+  font: normal 18px/35px Arnopro;
+  display: list-item;
+  list-style: none;
+  text-decoration: none;
+}
+.headerMenuLink {
+  transition: background .2s, color .2s;
+}
+.pageIndex .lastIssueWrap {
+  position: relative;
+}
+.pageIndex .lastIssueWrap:before {
+  background: #f6f6f6;
+  content: "";
+  height: 2040px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -5;
+}
+.pageIndex .moodsListWrap {
+  position: relative;
+}
+.pageIndex .moodsListWrap:before {
+  background: #f6f6f6;
+  content: "";
+  height: 640px;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  z-index: -5;
+}
+.pageArticles:before {
+  background: #f6f6f6;
+  content: "";
+  height: 90%;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  z-index: -5;
+}
+.pageArticlesWrap {
+  position: relative;
+}
+.pageArticlesWrap:before {
+  background: #efefef;
+  content: "";
+  height: 1257px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: -5;
+  margin: 0 0 0 -700px;
+  left: 50%;
+  width: 1400px;
+  z-index: -4;
+}
+.pageAuthor:before {
+  background: #f6f6f6;
+  content: "";
+  height: 90%;
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  z-index: -5;
+}
+.pageAuthor .pageAuthorWrap {
+  padding: 20px 0 100px;
+  position: relative;
+}
+.pageAuthor .pageAuthorWrap:before {
+  background: #efefef;
+  content: "";
+  height: 1447px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: -5;
+  margin: 0 0 0 -700px;
+  left: 50%;
+  width: 1400px;
+  z-index: -4;
+}
+.pageAuthor .lastIssue:after {
+  display: none;
+}
+.pageCredo:before {
+  background: #f6f6f6;
+  content: "";
+  height: 90%;
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  z-index: -5;
+}
+.pageCredo .pageCredoWrap {
+  padding: 20px 0 50px;
+  position: relative;
+}
+.pageCredo .pageCredoWrap:before {
+  background: #efefef;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  z-index: -5;
+  margin: 0 0 0 -700px;
+  left: 50%;
+  width: 1400px;
+  z-index: -4;
+}
+.pageGalleries:before {
+  background: #f6f6f6;
+  content: "";
+  height: 90%;
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  z-index: -5;
+}
+.pageGalleries .pageGalleriesWrap {
+  padding: 20px 0 100px;
+  position: relative;
+}
+.pageGalleries .pageGalleriesWrap:before {
+  background: #efefef;
+  content: "";
+  height: 1570px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: -5;
+  margin: 0 0 0 -700px;
+  left: 50%;
+  width: 1400px;
+  z-index: -4;
+}
+.pageGallery:before {
+  background: #f6f6f6;
+  content: "";
+  height: 1476px;
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  z-index: -5;
+}
+.pageGallery .pageGalleryWrap {
+  padding: 90px 0 100px;
+  position: relative;
+}
+.pageGallery .pageGalleryWrap:before {
+  background: #efefef;
+  content: "";
+  height: 1348px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: -5;
+  margin: 0 0 0 -700px;
+  left: 50%;
+  width: 1400px;
+  z-index: -4;
+}
+.pagePublic:before {
+  background: #f6f6f6;
+  content: "";
+  height: 90%;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  z-index: -5;
+}
+.pagePublicWrap {
+  position: relative;
+}
+.pagePublicWrap:before {
+  background: #efefef;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: -5;
+  margin: 0 0 0 -700px;
+  left: 50%;
+  width: 1400px;
+  z-index: -4;
+}
+
+.headline-white{
+    font: normal bold 45px/170px Arnopro;
+    color: #fff;
+    height: 170px;
+    text-align: center;
+}
+/*Подписка*/
+.contact_form{
+    width: 150px;
+    height: 350px;
+}
+.headline-wh{
+    font: normal bold 45px/170px Arnopro;
+    color: #fff;
+    height: 170px;
+    text-align: center;
+}

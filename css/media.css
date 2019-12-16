@@ -1,0 +1,890 @@
+@media (max-width: 1280px) and (min-width: 1100px){
+    nav{ margin-left: 0; }
+    .social-links i{ margin-right: 10px; }
+    .promoItem-big img, .promoItem-small img{  height: auto; }
+    .promoItem-big{ height: 646px; overflow: hidden; }
+    .promoItem-big .headingArticle{ top: 300px; }
+    .promoItem-big .authorArticle{ top: 335px; }
+    .promoItem-big .captionArticle{
+        padding-top: 390px;
+        font-size: 50px;
+        line-height: 50px;
+        padding-right: 10px;
+        
+    }
+    .submit > #sub { margin-left: 310px;}
+    .promoItem-big .promoArticle{ padding-top: 15px; padding-right: 15px; }
+    .promoItem-small{ height: 323px; }
+    .promoItem-small .headingArticle{ top: 135px; left: 7%; }
+    .promoItem-small .authorArticle{ top: 170px; left: 7%; }
+    .promoItem-small .captionArticle{
+        padding-top: 225px;
+        padding-left: 8%;
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .promoItem-small .slick-dots{ bottom: 3px; left: 7%; }
+    .promoItem-vertical{ height: 323px; }
+    .promoItem-mini{ height: 161.5px; }
+    .issueCoverIcoWrap{ width: 600px; }
+    .issueCoverIcoWrap:before{ width: 65px; top: 113px; }
+    .issueCoverIcoWrap:after{ width: 543px; }
+    .newsItem{ width: 100%; }
+    .news-picture{ width: 100%; }
+    .pictureArticle, .previewItem .promoArticle{ width: 100%; }
+    .publicHead .promoArticle{ line-height: 22px; }
+    .galleryWrp h1{ font-size: 68px; line-height: 75px; }
+    .nameGallery{
+        height: 75px;
+        font-size: 35px;
+        padding: 15px 25px 15px;
+        top: 95px;
+    }
+    .galleryDate{ top: 205px; }
+    .publicHead{ margin-bottom: 20px; height: 345px; }
+    /*.publicHeadNews{ margin-bottom: 20px; }*/
+    .publicHead img{ width: 100%; height: auto; }
+    .publicHead h1, .publicHeadNews h1{
+        font-size: 60px;
+        line-height: 60px;
+        padding: 50px 0 10px;
+        margin-bottom: 5px;
+    }
+    .publicHead .headingArticle{
+        bottom: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .publicHead .authorArticle{
+        top: 90%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .publicHead .promoArticle{ line-height: 18px; }
+}
+@media (max-width: 1100px) and (min-width: 991px){
+    nav{ margin-left: -45px; }
+    .social-links i{ margin-right: 6px; }
+    .promoItem-big img, .promoItem-small img{ height: auto; }
+    .promoItem-big{ height: 580px; overflow: hidden; }
+    .promoItem-big .headingArticle{ top: 240px; }
+    .promoItem-big .authorArticle{ top: 275px; }
+    .promoItem-big .captionArticle{
+        padding-top: 325px;
+        font-size: 43px;
+        line-height: 45px;
+        padding-right: 10px;
+    }
+    .promoItem-big .promoArticle{ padding-top: 15px; padding-right: 15px; }
+    .promoItem-small{ height: 290px; }
+    .promoItem-small .headingArticle{ top: 115px; left: 7%; }
+    .promoItem-small .authorArticle{ top: 150px; left: 7%; }
+    .promoItem-small .captionArticle{
+        padding-top: 195px;
+        padding-left: 7%;
+        font-size: 33px;
+        line-height: 32px;
+    }
+    .promoItem-small .slick-dots{ bottom: 3px; left: 7%; }
+    .promoItem-vertical{ height: 290px; }
+    .promoItem-mini{ height: 145px; }
+    .issueCoverIcoWrap{ width: 100%; }
+    .issueCoverDate{ margin-left: 0; }
+    .issueCoverText{ margin-left: 0; }
+    .newsItem{ width: 100%; }
+    .news-picture{ width: 100%; }
+    .pictureArticle, .previewItem .promoArticle{ width: 100%; }
+    .publicHead h1, .publicHeadNews h1{ padding: 50px 0 20px 0; }
+    .publicHead .promoArticle{
+        line-height: 22px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .galleryWrp h1{ font-size: 65px; line-height: 40px; }
+    .nameGallery{
+        height: 60px;
+        font-size: 30px;
+        line-height: 34px;
+        padding: 10px 25px 15px;
+        top: 85px;
+        width: 460px;
+    }
+    .galleryDate{ top: 175px; }
+    .publicHead{ display: flex; justify-content: center; flex-direction: column; margin-bottom: 20px; height: 330px; }
+    /*.publicHeadNews{ margin-bottom: 20px; }*/
+    .publicHead img{ width: 100%; height: auto; }
+    .publicHead h1, .publicHeadNews h1{
+        font-size: 60px;
+        line-height: 60px;
+        padding: 50px 0 10px;
+        margin-bottom: 5px;
+    }
+    .publicHead .headingArticle{
+        bottom: 0;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .publicHead .authorArticle{
+        top: inherit;
+        bottom: -30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .publicHead .promoArticle{ line-height: 18px; height: auto; }
+    
+     .headline { text-align: center; margin-left: 0px; margin-top:10px;line-height: 50px;}
+    #name, #email, #number, #country, #city, #adress, #text{margin-left: 0px; width: 300px;}
+    .headline-bl{ text-align: center; margin-top: -70px; line-height: 50px;padding-left: 0px;}
+    .conditions,.language{ text-align: left;}
+    .condition_l{margin-left: 0px;}
+    .language_en{margin-left: 0px;}
+    .condition_r{margin-left: 90px;}
+    .language_rus{margin-left: 150px;}
+    .submit > #sub { margin-left: 180px;width: 50%;}
+}
+@media (max-width: 990px){
+    #ads img{ width: 100%; height: auto; }
+}
+@media (max-width: 990px) and (min-width: 768px) {
+    .logo img{ width: 100%; }
+    nav{ margin-left: 10px; }
+    nav a{ font-size: 18px; }
+    .social-links{
+        float: none;
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 16px;
+    }
+    .social-links i{
+        margin-top: 0;
+        margin-right: 15px;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    section:nth-child(2){ margin-top: 148px; }
+    .promoItem-big{ height: 470px; overflow: hidden; }
+    .promoItem-big img, .promoItem-small img{ height: auto; }
+    .promoItem-big .headingArticle{ height: 30px; line-height: 30px; }
+    .promoItem-big .authorArticle{ height: 30px; line-height: 30px; }
+    .promoItem-small{ height: 235px; }
+    .promoItem-small .headingArticle{ height: 27px; line-height: 27px; }
+    .promoItem-small .authorArticle{ height: 27px; line-height: 27px; }
+    .promoItem-big .promoArticle{ display: none; }
+    .promoItem-vertical{ height: 235px; }
+    .promoItem-mini{ height: 117.5px; }
+    .issueArticleList .issueArticleItem-big, .issueArticleList .issueArticleItem{ height: 440px; }
+    .issueArticleItem-big .authorArticle{ top: 260px; }
+    .issueArticleItem-big .headingArticle{ top: 225px; }
+    .issueArticleItem .authorArticle{ top: 256px; }
+    .issueArticleItem .headingArticle{ top: 221px; }
+    .issueArticleList{ height: 880px; }
+    .newsItem{ width: 100%; }
+    .news-picture{ width: 100%; display: flex; align-items: center; }
+    .newsItem .captionArticle{
+        font-size: 28px;
+        line-height: 1;
+        padding: 0 20px;
+        height: auto;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .news-text{
+        margin-top: 10px;
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .imageItem img{ height: auto; }
+    .issueCoverIcoWrap{ width: 100%; padding: 80px 0 30px; }
+    .issueCoverIco{ width: 90%; }
+    .issueCoverIcoWrap:before{
+        width: 5%;
+        left: 0;
+        top: 90.5px;
+    }
+    .issueCoverIcoWrap:after{
+        width: 91.5%;
+        height: 30px;
+        left: 0px;
+        top: auto;
+        bottom: 0px;
+    }
+    .issueCoverDate{ margin-left: 0; padding: 50px 0 0; }
+    .issueCoverText{
+        margin-left: 0;
+        margin-bottom: 80px;
+        padding-top: 20px;
+        padding-right: 80px;
+        padding-left: 5px;
+        line-height: 22px;
+    }
+    .publicHead h1, .publicHeadNews h1{
+        font-size: 65px;
+        line-height: 78px;
+        padding: 50px 0 20px 0;
+    }
+    .publicHead .promoArticle{
+        font-size: 17px;
+        line-height: 20px;
+        width: 55%;
+        margin-bottom: 17px;
+    }
+    .previewItem .pictureArticle{ width: 100%; margin: 0 0 55px; }
+    .previewItem .promoArticle{ width: 100%; font-size: 17px; line-height: 20px; }
+    .previewItem .headingArticle{ height: 25px; font-size: 18px; line-height: 25px; }
+    .previewItem .authorArticle{ height: 25px; font-size: 18px; line-height: 25px; }
+    .previewItem .captionArticle{ font-size: 21px; line-height: 25px; }
+    .galleryWrp h1{ font-size: 65px; line-height: 40px; }
+    .nameGallery{
+        height: 60px;
+        font-size: 28px;
+        line-height: 32px;
+        padding: 10px 25px 15px;
+        top: 55px;
+        width: 100%;
+    }
+    .galleryDate{ top: 145px; left: 62%; }
+    .publicHead{ display: flex; align-items: center; margin-bottom: 0; height: 280px; }
+    .publicHeadNews{ margin-bottom: 0; height: 280px; }
+    .publicHead img{ width: 100%; height: auto; }
+    .publicHead h1, .publicHeadNews h1{
+        font-size: 60px;
+        line-height: 60px;
+        padding: 50px 0 0;
+        height: 200px;
+    }
+    .publicHead .headingArticle{
+        bottom: 0;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .publicHead .authorArticle{
+        top: initial;
+        bottom: -30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .publicHead .promoArticle{ display: none; }
+    .publicHeadNews .promoArticle{ display: none; }
+    .headerContent { height: 360px; }
+    .headerContent h1{ font-size: 40px; line-height: 60px; }
+    .headerContent .headText{ top: 130px; }
+}
+@media (max-width: 990px) and (min-width: 901px){
+    .promoItem-big img, .promoItem-small img{ height: auto; }
+    .promoItem-big{ height: 528px; }
+    .promoItem-big .headingArticle{ top: 300px; }
+    .promoItem-big .authorArticle{ top: 330px; }
+    .promoItem-big .captionArticle{
+        padding-top: 375px;
+        font-size: 43px;
+        line-height: 45px;
+        padding-right: 10px;
+    }
+    .promoItem-small{ height: 264px; }
+    .promoItem-small .headingArticle{ top: 113px; left: 7%; }
+    .promoItem-small .authorArticle{ top: 140px; left: 7%; }
+    .promoItem-small .captionArticle{
+        padding-top: 177px;
+        padding-left: 7%;
+        font-size: 32px;
+        line-height: 30px;
+        padding-right: 10px;
+    }
+    .promoItem-small .slick-dots{ bottom: -3px; left: 7%; }
+    .promoItem-vertical{ height: 264px; }
+    .promoItem-mini{ height: 132px; }
+    
+    .submit > #sub { margin-left: 260px;width: 30%;}
+}
+@media (max-width: 900px) and (min-width: 801px){
+    .promoItem-big img, .promoItem-small img{ height: auto; }
+    .promoItem-big{ height: 470px; }
+    .promoItem-big .headingArticle{ top: 240px; }
+    .promoItem-big .authorArticle{ top: 270px; }
+    .promoItem-big .captionArticle{
+        padding-top: 310px;
+        font-size: 40px;
+        line-height: 45px;
+        padding-right: 10px;
+    }
+    .promoItem-small{ height: 235px; }
+    .promoItem-small .headingArticle{ top: 85px; left: 7%; }
+    .promoItem-small .authorArticle{ top: 112px; left: 7%; }
+    .promoItem-small .captionArticle{
+        padding-top: 148px;
+        padding-left: 7%;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .promoItem-small .slick-dots{ bottom: -3px; left: 7%; }
+    .promoItem-vertical{ height: 235px; }
+    .promoItem-mini{ height: 117.5px; }
+    
+    .headline { text-align: center; margin-left: 20px; margin-top: 85px;;line-height: 50px;}
+    #name, #email, #number, #country, #city, #adress, #text{margin-left: 10px; height: 50px; width: 250px;}
+    .headline-bl{ text-align: center; margin-top: -120px; line-height: 50px;padding-left: 20px;}
+    .conditions,.language{ text-align: left;margin-left: 10px;}
+    .condition_l{margin-left: 15px;}
+    .language_en{margin-left: 12px;}
+    .condition_r{margin-left: 110px;}
+    .language_rus{margin-left: 160px;}
+    .submit > #sub { margin-left: 120px;width: 30%;}
+}
+@media (max-width: 800px) and (min-width: 768px){
+    nav a{ font-size: 17px; padding: 5px 5px; }
+    .promoItem-big img, .promoItem-small img{ height: auto; }
+    .promoItem-big{ height: 450px; }
+    .promoItem-big .headingArticle{ top: 260px; }
+    .promoItem-big .authorArticle{ top: 290px; }
+    .promoItem-big .captionArticle{
+        padding-top: 335px;
+        font-size: 40px;
+        line-height: 45px;
+        padding-right: 10px;
+    }
+    .promoItem-small{ height: 225px; }
+    .promoItem-small .headingArticle{ top: 85px; left: 7%; }
+    .promoItem-small .authorArticle{ top: 112px; left: 7%; }
+    .promoItem-small .captionArticle{
+        padding-top: 148px;
+        padding-left: 7%;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .promoItem-small .slick-dots{ bottom: -3px; left: 7%; }
+    .promoItem-vertical{ height: 225px; }
+    .promoItem-mini{  height: 112.5px; }
+    .previewItem .captionArticle{ top: 35px; }
+    .previewItem .promoArticle{ line-height: 18px; }
+    .publicHead h1 { font-size: 60px; height: auto; padding: 0; }
+    .publicHeadNews h1 { font-size: 60px; padding: 0; }
+    
+    .headline { text-align: center; /*margin-left: 20px; margin-top: 85px;;line-height: 50px;*/}
+    #name, #email, #number, #country, #city, #adress, #text{margin-left: 10px; height: 50px; width: 250px;}
+    .headline-bl{ text-align: center; margin-top: -120px; line-height: 50px;padding-left: 20px;}
+    .conditions,.language{ text-align: left;margin-left: 10px;}
+    .condition_l{margin-left: 15px;}
+    .language_en{margin-left: 12px;}
+    .condition_r{margin-left: 110px;}
+    .language_rus{margin-left: 160px;}
+    .submit > #sub { margin-left: 120px;width: 50%;}
+}
+@media (max-width: 767px) and (min-width: 480px) {
+    .logo img{ width: 100%; }
+    nav{ width: auto; }
+    nav a{ display: none; }
+    #menu_btn{
+        display: block;
+        margin-top: 20px;
+        text-transform: uppercase;
+        float: right;
+        margin-right: 15px;
+    }
+    .social-links{ float: none; margin: 0 auto; }
+    .issueCoverDate{ padding: 20px 0 10px; margin-left: 0; text-align: center; }
+    .issueCoverText{ margin-left: 20px; padding-top: 0; padding-right: 30px; }
+    .promoItem-big{ height: auto; }
+    .promoItem-big .headingArticle{ top: 290px; }
+    .promoItem-big .authorArticle{ top: 325px; }
+    .promoItem-big .captionArticle{ padding-top: 370px; padding-bottom: 5px; }
+    .promoItem-big .promoArticle{ padding-top: 5px; padding-bottom: 10px; line-height: 22px; }
+    .promoItem-big img, .promoItem-small img{ width: 100%; height: auto; }
+    .promoItem-small{ height: 330px; }
+    .promoItem-small .headingArticle{ height: 30px; line-height: 30px; font-size: 17px; top: 175px; }
+    .promoItem-small .authorArticle{ height: 30px; line-height: 30px; font-size: 17px; top: 205px; }
+    .promoItem-small .captionArticle{ padding-top: 240px; font-size: 35px; line-height: 34px; }
+    .promoItem-small .slick-dots{ bottom: -3px; }
+    .imageItem img{ height: auto; }
+    .issueArticleList .issueArticleItem-big img{ height: auto; }
+    .news-picture { height: auto; }
+    .newsItem img { height: auto; }
+    .publicHead, .publicHeadNews{ height: 330px; }
+    .publicHead h1, .publicHeadNews h1{ font-size: 45px; line-height: 50px; padding: 120px 0 0; height: 235px; }
+    .publicHead .authorArticle{ top: 270px; }
+    .publicHead .promoArticle{ display: none; }
+    .publicHeadNews .promoArticle{ display: none; }
+    .pictureArticle{ margin: 0 auto 70px; }
+    .previewItem .promoArticle{ margin: 0 auto 20px; }
+    .issueAuthor .authorArticle{ margin-left: 0; }
+    .issueAuthorName{ padding: 105px 0 10px 0; font-size: 40px; line-height: 45px; }
+    .issueAuthorAbout{ padding: 0 0 40px 0; }
+    .issueAuthor:nth-child(2n){ padding-left: 20px; }
+    .issueAuthor:nth-child(2n) .avatarAuthor img{ margin-left: 0; }
+    .avatarAuthor img{ width: 100%; height: auto; }
+    .ColumnistOne .issueAuthor{ margin-left: 10px; }
+    .credo{ margin-left: 20px; }
+    .credo .authorArticle{ margin-left: 0; }
+    .contentCredo p, .contentCredo p span{ font-size: 16px !important; }
+    .galleryWrp h1{ font-size: 60px; line-height: 35px; }
+    .nameGalleryWrp{
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        height: 75px;
+        width: 100%;
+    }
+    .nameGallery,
+    .leftGalleryPos .nameGallery{
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 75px;
+        font-size: 28px;
+        line-height: 28px;
+        padding: 10px 25px 20px;
+        box-sizing: border-box;
+    }
+    .galleryDate{ left: 75% !important; top: 55px; z-index: 7; }
+    .headerGallery h1{
+        font-size: 40px;
+        line-height: 35px;
+        padding: 60px 0 50px 0;
+    }
+    .imageItem img{ margin: 0 auto 5px; }
+    .headerContent h1{ font-size: 40px; line-height: 60px; left: 30px; }
+    .headerContent .headText{ top: 130px; display: none; }
+    .fotoSlider-wrp .slick-dots{ display: none !important; }
+    .fotoSlider-wrp .slick-prev{ display: inline-block !important; left: 35px; z-index: 1; }
+    .fotoSlider-wrp .slick-next{ display: inline-block !important; right: 35px; z-index: 1; }
+    .fotoSlider-wrp .imageItem img{ width: 90%; height: auto; }
+    .aboutCredo{ padding: 0 20px 40px 0; }
+}
+@media (max-width: 767px) and (min-width: 700px){
+    .promoItem-small{ height: 390px; }
+    .imageItem{ width: 85%; margin: 0 auto; }
+    .issueArticleList .issueArticleItem-big{ margin: 0 auto 10px !important; }
+    .issueArticleList .issueArticleItem{ width: 50% !important; }
+    .headerContent { height: 300px; }
+    .headerContent .headText{ display: block; }
+    .fotoSlider-wrp .slick-prev{ left: 90px; }
+    .fotoSlider-wrp .slick-next{ right: 90px; }
+}
+@media (max-width: 700px) and (min-width: 611px) {
+    .promoItem-small{ height: 365px; }
+    .issueArticleList .issueArticleItem { width: 57% !important; }
+    .headerContent { height: 300px; }
+}
+@media (max-width: 610px) and (min-width: 551px) {
+    .avatarAuthor img{ margin-top: 30px; }
+    .credo .authorArticle{ top: 35px; }
+    .credo .issueAuthorName{ padding: 80px 0 10px 0; }
+    .headerContent { height: 270px; }
+    .headerContent h1{ top: 40px; left: 30px; font-size: 35px; }
+    .issueArticleList .issueArticleItem { width: 60% !important; }
+}
+@media (max-width: 767px) and (min-width: 551px) {
+    .promoItem-big .headingArticle{ top: 290px; }
+    .promoItem-big .authorArticle{ top: 325px; }
+    .promoItem-big .captionArticle{ padding-top: 370px; padding-bottom: 5px; }
+    .promoItem-big .promoArticle{
+        padding-top: 5px;
+        padding-bottom: 40px;
+        padding-right: 40px;
+        line-height: 22px;
+    }
+    .issueArticleList .issueArticleItem-big{ height: 400px; }
+    .issueArticleItem-big .headingArticle{ top: 150px; }
+    .issueArticleItem-big .authorArticle{ top: 185px; }
+    .issueCoverIcoWrap{ padding: 30px 0 55px; width: 100%; text-align: left; }
+    .issueCoverIco{ margin-left: 37px; }
+    .issueCoverIcoWrap:before{ top: 88px; left: -78px; }
+    .issueCoverIcoWrap:after{ top: 687px;  left: -115px; }
+    .issueArticleList .issueArticleItem-big,
+    .issueArticleList .issueArticleItem{
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .newsItem{ margin: 0 auto 90px !important; }
+    .publicHead { display: flex; align-items: center; height: 190px; margin-bottom: 20px; }
+    .publicHeadNews { height: 230px; }
+    .publicHead img, .publicHeadNews img{ width: 100%; height: auto; }
+    .publicHead h1, .publicHeadNews h1{
+        font-size: 35px;
+        line-height: 35px;
+        padding: 0;
+        height: auto;
+    }
+    .publicHead .headingArticle{
+        bottom: 0;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .publicHead .authorArticle{
+        top: initial;
+        bottom: -30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    
+    .headline { text-align: center; margin-left: 20px; margin-top: 0;line-height: 50px;}
+    #name, #email, #number, #country, #city, #adress, #text{margin-left: 150px;}
+    .headline-bl{ text-align: center; margin-top: -70px; line-height: 50px;padding-left: 20px;}
+    .conditions,.language{ text-align: center;}
+    .condition_l{margin-left: 200px;}
+    .language_en{margin-left: 215px;}
+    .condition_r{margin-left: 350px;}
+    .language_rus{margin-left: 365px;}
+    .submit > #sub { margin-left: 180px;width: 50%;}
+    .publicContent img, .publicContent iframe { width: 100%; height: auto; }
+}
+@media (max-width: 550px) and (min-width: 481px) {
+    #menu_btn{ margin-top: 10px; }
+    .mobile_footer{ display: block !important; }
+    .footerMenu{ display: none; }
+    .footerOtherInfo{ margin-left: 15px; }
+    .promoItem-big .headingArticle{ top: 320px; }
+    .promoItem-big .authorArticle{ top: 355px; }
+    .promoItem-big .captionArticle{ padding-top: 400px; padding-bottom: 25px; }
+    .promoItem-big .promoArticle{ display: none; }
+    .promoItem-small{ height: 290px; }
+    .promoItem-small .headingArticle{ top: 145px; }
+    .promoItem-small .authorArticle{ top: 175px; }
+    .promoItem-small .captionArticle{ padding-top: 210px; line-height: 35px; font-size: 30px; }
+    .promoItem-small .slick-dots{ bottom: -3px; }
+    .issueCoverIcoWrap{ width: 100%; text-align: left; padding: 30px 0 50px; }
+    .issueCoverIcoWrap:before{ width: 50px; top: 56px; }
+    .issueCoverIcoWrap:after{ top: 590px; width: 461px; }
+    .issueCoverIco{ width: 420px; height: 560px; margin-left: 42px; }
+    .issueArticleList .issueArticleItem-big{ height: 370px; width: 90%; margin: 0 auto 10px; }
+    .issueArticleItem-big .headingArticle{ top: 150px; }
+    .issueArticleItem-big .authorArticle{ top: 185px; }
+    .newsItem{ margin: 0 auto 90px !important; }
+    .issueArticleList .issueArticleItem{ width: 65%; margin: 0 auto; }
+    .publicContent img, .publicContent iframe{ width: 100%; }
+    .footerMenu{ display: none; }
+    .footerSocLink{ margin-top: 20px; margin-left: 5px; margin-bottom: 10px; }
+    #footerMenu_btn{ display: inline-block; text-transform: uppercase; }
+    .slick-dots{ bottom: 5px; width: 100%; text-align: center; }
+    .copyright{ margin-top: 25px; }
+    .avatarAuthor img{ margin-top: 40px; }
+    .issueAuthorName{ font-size: 30px; }
+    .credo .authorArticle{ top: 35px; }
+    .credo .issueAuthorName{ padding: 80px 0 10px 0; }
+    .headerContent h1{ top: 40px; left: 15px; font-size: 35px; line-height: 40px; }
+    .publicHead { display: flex; align-items: center; height: 150px; margin-bottom: 20px; }
+    .publicHeadNews{ height: 160px; }
+    .publicHead img, .publicHeadNews h1{ width: 100%; height: auto; }
+    .publicHead h1 { font-size: 35px; line-height: 30px; padding: 0; height: auto; }
+    .publicHeadNews h1{ font-size: 35px; line-height: 30px; padding: 0; }
+    .publicHead .headingArticle{ bottom: 0; height: 25px; line-height: 25px; font-size: 16px; margin-left: -50px; }
+    .publicHead .authorArticle{ top: initial; bottom: -25px; height: 25px; line-height: 25px; font-size: 16px; margin-left: -50px; }
+    
+    .headline { text-align: center; margin-left: 20px; margin-top: 0;line-height: 50px;}
+    #name, #email, #number, #country, #city, #adress, #text{margin-left: 80px;}
+    .headline-bl{ text-align: center; margin-top: -50px; line-height: 50px;padding-left: 20px;}
+    .conditions,.language{ text-align: center;}
+    .condition_l{margin-left: 130px;}
+    .language_en{margin-left: 145px;}
+    .condition_r{margin-left: 280px;}
+    .language_rus{margin-left: 295px;}
+    .submit > #sub { margin-left: 140px;width: 50%;}
+    .headerContent { height: 270px; }
+}
+@media (max-width: 480px) {
+    .logo img{ width: 100%; }
+    nav{ width: auto; margin-top: 25px; }
+    nav a{ display: none; }
+    .mobile_footer{ display: block !important; }
+    .footerMenu{ display: none; }
+    .footerOtherInfo{ margin-left: 15px; }
+    #menu_btn{
+        display: block;
+        margin-top: 0;
+        text-transform: uppercase;
+        float: right;
+        margin-right: 15px;
+    }
+    .social-links{ float: none; margin: 0 auto; }
+    .footerSocLink{ margin-top: 20px; margin-left: 5px; margin-bottom: 5px; }
+    .issueCoverDate{ padding: 20px 0 10px; margin-left: 0; text-align: center; }
+    .issueCoverText{ margin-left: 20px; padding-top: 0; padding-right: 30px; }
+    .headingArticle{ padding: 0 10px; }
+    .authorArticle{ padding: 0 10px; bottom: -34px; left: 0; }
+    .promoItem-big{ height: 470px; }
+    .promoItem-big .headingArticle{ top: 200px; }
+    .promoItem-big .authorArticle{ top: 235px; }
+    .promoItem-big .captionArticle{ padding-top: 280px; font-size: 40px; line-height: 40px; }
+    .promoItem-big .promoArticle{ display: none; }
+    .promoItem-big img, .promoItem-small img{ height: auto; }
+    .promoItem-small{ height: 240px; }
+    .promoItem-small .headingArticle{ top: 110px; height: 25px; line-height: 25px; font-size: 15px; }
+    .promoItem-small .authorArticle{ top: 135px; height: 25px; line-height: 25px; font-size: 15px; }
+    .promoItem-small .captionArticle{ padding-top: 165px; line-height: 27px; font-size: 27px; }
+    .promoItem-small .slick-dots{ bottom: -3px; }
+    .promoItem-mini .captionArticle{ font-size: 30px; line-height: 40px; }
+    .issueArticleList .issueArticleItem-big img{ height: auto; }
+    .slick-dots{ bottom: -3px; }
+    .imageSlider-wrp .slick-dots{ width: 100%; left: 0; bottom: 0; text-align: center; }
+    .bannerHorizontal img{ height: 50px; }
+    .issueCoverIcoWrap{ width: 100%; }
+    .issueCoverIco{ width: 300px; }
+    .issueCoverIcoWrap:before{ display: none; }
+    .issueCoverDate{ font-size: 65px; }
+    .issueCoverText{ line-height: 20px; }
+    .issueArticleList .issueArticleItem-big{ height: 350px; margin-bottom: 20px; }
+    .issueArticleItem-big .captionArticle{ bottom: 50px; padding-left: 4%; line-height: 30px; }
+    .issueArticleItem-big .headingArticle{ top: 225px; }
+    .issueArticleItem-big .authorArticle{ top: 260px; }
+    .issueArticleList .issueArticleItem{ height: 450px; }
+    .issueArticleItem .captionArticle{ height: 130px; }
+    .issueArticleItem .headingArticle{ top: 250px; }
+    .issueArticleItem .authorArticle{ top: 285px; }
+    .issueBtnAll{ width: 100%; }
+    .issueBtnAllWpr{ margin-bottom: 20px; }
+    .newsItem{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .news-picture{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .newsItem{ margin-left: 0; margin-right: 0; }
+    .newsItem img { height: auto; }
+    .newsItem .captionArticle{ height: auto; padding: 0 15px 0; text-align: center; margin: 0; line-height: 1 }
+    .news-text{ margin-top: 15px; }
+    .publicHead { height: 300px; padding: 0 25px; }
+    .publicHead h1, .publicHeadNews h1{ font-size: 40px; line-height: 50px; padding: 80px 0 0; height: 200px; }
+    .publicHead .promoArticle{ display: none; }
+    .publicHeadNews .promoArticle{ display: none; }
+    .publicHead .authorArticle{ top: 235px; }
+    .publicContent{ padding: 20px 15px 0; }
+    .publicContent p{ line-height: 22px; }
+    /*.publicContent div{ max-width: 100%; }*/
+    /*.publicContent .easingslider-item { width: auto; }*/
+    .publicContent img, .publicContent iframe{ width: 100%; height: auto; }
+    .pictureArticle{ width: 100%; }
+    .previewItem .promoArticle{ width: 100%; }
+    .previewItem, .first-preview{ margin-left: 0; }
+    .previewItem .captionArticle{ top: 40%; }
+    .issueAuthor{ padding-left: 0; }
+    .issueAuthor .authorArticle{ top: 25px; margin-left: 15px; }
+    .issueAuthorName{ padding: 78px 10px 20px 15px; font-size: 27px; line-height: 30px; }
+    .issueAuthorAbout{ padding: 0 0 40px 15px; margin-top: -20px; }
+    .avatarAuthor{ margin-left: -15px; margin-right: -15px; }
+    .avatarAuthor img{ width: 100%; height: auto; }
+    .ColumnistOne{ padding-bottom: 30px; }
+    .credo .authorArticle{ top: 35px; margin-left: 15px; }
+    .contentCredo p, .contentCredo p span{ font-size: 14px !important; }
+    .galleryWrp h1{ font-size: 60px; line-height: 35px; }
+    .nameGalleryWrp{
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        height: 70px;
+        width: 100%;
+    }
+    .nameGallery,
+    .leftGalleryPos .nameGallery{
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        font-size: 26px;
+        line-height: 28px;
+        padding: 5px 25px 20px 5px;
+        box-sizing: border-box;
+    }
+    .galleryDate{ left: 70% !important; top: 55px; z-index: 7; }
+    .headerGallery{ padding-top: 30px; padding-left: 20px; }
+    .headerGallery h1{ font-size: 35px; line-height: 35px; padding: 60px 0 20px 0; }
+    .imageItem img{ margin: 0 auto 5px; }
+    .headline{ line-height: 1; height: 120px; font-size: 36px; }
+    .txt-area h1{ font-size: 55px; line-height: 55px; }
+    .headerContent{ height: 210px; }
+    .headerContent img{ height: auto; }
+    .headerContent .headText { display: none; }
+    .fotoSlider-wrp .imageItem img{ height: auto; }
+    .fotoSlider-wrp .slick-dots{ display: none !important; }
+    .fotoSlider-wrp .slick-prev{ display: inline-block !important; left: 10px; z-index: 1; }
+    .fotoSlider-wrp .slick-next{ display: inline-block !important; right: 10px; z-index: 1; }
+    .aboutCredo{ padding: 0 10px 40px 10px; }
+    #art_journal_head{ line-height: 45px; }
+    .headline-white {
+        font: normal bold 28px/28px Arnopro;
+        margin-top: 0;
+        position: absolute;
+        top: 15px;
+        width: 100%;
+    }
+    #product .headline {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    .image-checkbox-checked .fa {
+        font-size: 30px;
+    }
+    .headline-bl {
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 0;
+        line-height: 1;
+        height: auto;
+        font-size: 30px;
+        word-wrap: break-word;
+    }
+}
+@media (max-width: 449px) {
+    .aboutCredo{ width: 200%; }
+}
+@media (max-width: 480px) and (min-width: 400px){
+    body { padding-top: 80px; }
+    section:nth-child(2){ margin-top: 0; }
+    .issueArticleList .issueArticleItem{ height: 500px; overflow: hidden; }
+    .issueArticleList .issueArticleItem > img{ width: 100% !important; }
+    .issueArticleItem .authorArticle{ top: 335px; }
+    .issueArticleItem .headingArticle{ top: 300px; }
+    .news-picture{ height: 250px; }
+    .publicHead { display: flex; align-items: center; height: 135px; margin-bottom: 20px; }
+    .publicHeadNews { height: 155px; margin-bottom: 0; }
+    .publicHead img, .publicHeadNews img{ width: 100%; height: auto; }
+    .publicHead h1 { font-size: 30px; line-height: 30px; padding: 0; height: auto; }
+    .publicHeadNews h1{ font-size: 30px; line-height: 30px; padding: 0; height: auto; }
+    .publicHead .headingArticle{
+        bottom: 0px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 15px;
+        left:0;
+    }
+    .publicHead .authorArticle{ top: 100%; height: 21px; line-height: 20px; font-size: 15px; }
+    .headerContent h1{ top: 40px; left: 15px; font-size: 22px; line-height: 30px; }
+    .issueAuthorAbout{ width: 100%; margin-top: 5px; }
+    
+    .headline { text-align: center; margin-top: 0; line-height: 50px;}
+    .headline-bl{ text-align: center; margin-top: 0; }
+    .conditions,.language{ text-align: center;}
+    .condition_l{margin-left: 70px;}
+    .language_en{margin-left: 80px;}
+    .condition_r{margin-left: 220px;}
+    .language_rus{margin-left: 235px;}
+    .submit > #sub { margin-left: 100px;width: 50%;}
+}
+@media (max-width: 400px) {
+    .issueArticleList .issueArticleItem > img{ width: 100% !important; }
+    .promoItem-big{ height: 375px; }
+    .promoItem-small{ height: 192px; }
+    .promoItem-mini{ height: 110px; }
+    .promoItem-vertical{ height: 220px; }
+    .promoItem-big .headingArticle{ top: 210px; height: 25px; line-height: 25px; font-size: 15px; }
+    .promoItem-big .authorArticle{ height: 25px; line-height: 25px; font-size: 15px; }
+    .promoItem-big .captionArticle{ font-size: 35px; line-height: 35px; }
+    .promoItem-small .headingArticle{
+        top: 65px;
+        left: 5%;
+        height: 25px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .promoItem-small .authorArticle{
+        top: 90px;
+        left: 5%;
+        height: 25px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .promoItem-small .captionArticle{ padding-left: 5%; padding-top: 120px; font-size: 24px; line-height: 25px; }
+    .promoItem-small .slick-dots{ bottom: -4px; }
+    .promoItem-mini .captionArticle{ font-size: 26px; line-height: 26px; margin-top: -115px; padding-left: 2px; }
+    .promoItem-mini .promoArticle{ padding-left: 2px; }
+    .promoItem-mini img{ position: relative; }
+    .promoItem-vertical .captionArticle{
+        bottom: 10px;
+        margin-left: 5px;
+        padding: 0;
+        font: normal 15px/22px Futura;
+    }
+    .promoItemListDate{ width: 50px; padding: 4px 0; }
+    .promoListDateNumber{ font: normal bold 16px/15px Arnopro; }
+    .promoListDateUnit{ font: normal 10px/10px Arial; }
+    .issueArticleList .issueArticleItem-big{ height: 300px; margin-bottom: 0; overflow: hidden; }
+    .issueArticleList .issueArticleItem{ overflow: hidden; }
+    .issueArticleItem-big .captionArticle{ bottom: 0; }
+    .issueArticleItem-big .headingArticle{ top: 80px; }
+    .issueArticleItem-big .authorArticle{ top: 115px; }
+    .imageItem img{ height: auto; }
+    .captionBLock{ width: 210px; left: 65%; }
+    .credo .authorArticle{ top: 25px; font-size: 16px; line-height: 30px; height: 30px; }
+    .credo .issueAuthorName{ padding: 70px 10px 20px 15px; font-size: 25px; }
+    .galleryWrp h1{ font-size: 60px; line-height: 35px; }
+    .nameGalleryWrp{ position: absolute; bottom: 0; left: 0; height: 70px; width: 100%; }
+    .nameGallery,.leftGalleryPos .nameGallery{
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        font-size: 22px;
+        line-height: 25px;
+        padding: 5px 10px 20px 5px;
+        box-sizing: border-box;
+    }
+    .galleryDate{ left: 65% !important; top: 55px; z-index: 7; font-size: 15px; }
+    .publicHead { display: flex; align-items: center; height: 112px; margin-bottom: 20px; }
+    .publicHead img, .publicHeadNews img{ width: 100%; height: auto; }
+    .publicHead h1 { font-size: 30px; line-height: 30px; padding: 0; height: auto; }
+    .publicHeadNews h1{ font-size: 30px; line-height: 30px; padding: 0; height: auto; }
+    .publicHead .headingArticle{
+        bottom: -20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 15px;
+        margin-left: -25px;
+    }
+    .publicHead .authorArticle{
+        top: initial;
+        bottom: -41px;
+        height: 21px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .headerContent h1{ top: 40px; left: 15px; font-size: 22px; line-height: 30px; }
+    .issueAuthorAbout{ width: 200%; margin-top: 30px; }
+    .issueAuthorAboutEven{ margin-left: -100%; }
+    .issueAuthorName{ padding: 90px 10px 20px 15px; }
+}
+@media (max-width: 400px) and (min-width: 350px) {
+    .promoItem-small{ height: 210px; }
+    .promoItem-small .captionArticle{ padding-top: 135px; }
+    .promoItem-small .authorArticle{ top: 105px; }
+    .promoItem-small .headingArticle{ top: 80px; }
+    .headline { text-align: center; margin-top: 0;line-height: 50px;}
+    #name, #email, #number, #country, #city, #adress, #text{margin-left: 10px;}
+    .headline-bl{ text-align: center; margin-top: 0; line-height: 50px;padding-left: 50px;}
+    .conditions,.language{ text-align: center;}
+    .condition_l{margin-left: 50px;}
+    .language_en{margin-left: 60px;}
+    .condition_r{margin-left: 200px;}
+    .language_rus{margin-left: 215px;}
+    .submit > #sub { margin-left: 100px;width: 50%;}
+    .publicHeadNews { height: 135px; margin-bottom: 0; }
+}
+@media (max-width: 360px) {
+    .newsItem .captionArticle { font: normal bold 25px/32px Arnopro; line-height: 1;}
+}
+@media (max-width: 350px) {
+    .publicHeadNews { height: 120px; padding: 0 5px; }
+    .publicHeadNews h1 {  }
+}
+@media (max-width: 340px){
+    nav{ margin-top: 14px; margin-left: 0; }
+    .headline { text-align: center; /*margin-left: 100px;*/ margin-top: 0; /*line-height: 50px;*/}
+    #name, #email, #number, #country, #city, #adress, #text{margin-left: 10px;}
+    .headline-bl{ text-align: center; margin-top: 0;}
+    .conditions,.language{ text-align: center;}
+    .condition_l{margin-left: 50px;}
+    .language_en{margin-left: 60px;}
+    .condition_r{margin-left: 200px;}
+    .language_rus{margin-left: 215px;}
+    .submit > #sub {width: 50%;}
+}
+
